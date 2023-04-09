@@ -10,7 +10,7 @@ class Gpt(commands.Cog):
     async def gpt(self, interaction, prompt: str):
         await interaction.response.defer()
 
-        msg = chatgpt_response(prompt)
+        msg = chatgpt_response(interaction, prompt)
 
         await interaction.followup.send(msg)
 
