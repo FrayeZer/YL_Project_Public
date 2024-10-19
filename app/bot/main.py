@@ -7,7 +7,7 @@ import time_events
 import json_reader
 import shutil
 
-token = 'MTA4' + 'OTg2NzAyMzgyN' + 'TI2MDYwNQ.GZUIWM.' + 'yrtB4tBQGHQk8' + 'U709HkeMZr' + '71ZsxJ8' + 'l3Y9-vxg'
+token = ''
 intents = disnake.Intents.all()
 bot = commands.Bot(command_prefix='yl!', intents=intents,
                    help_command=None)
